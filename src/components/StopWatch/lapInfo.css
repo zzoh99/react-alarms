@@ -1,0 +1,14 @@
+.lapInfo{
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+.lapNum{
+    padding-left: 1rem;
+    float: left;
+}
+.lapTime{
+    padding-right: 1rem;
+    float: right;
+}

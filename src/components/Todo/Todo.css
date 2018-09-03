@@ -1,0 +1,70 @@
+.Todo{
+    width: 30rem;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid grey;
+}
+.Text{
+    background-color: #1C66A6;
+    color: white;
+    font-size: 2.5rem;
+}
+.InputText{
+    margin-right: 3px;
+    width: 88%;
+    height: 1.5rem;
+}
+button{
+    vertical-align: middle;
+    width: 10%;
+    height: 1.7rem;
+    background-color: #5EADBF;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.InfoWarp{
+    margin-top: 1rem;
+}
+.Info{
+    height: 2rem;
+    border: 1px solid grey;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.TodoIdx{
+    display: inline-block;
+    width: 1rem;
+    text-align: left;
+}
+.TodoText{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+}
+.TodoTextChecked{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: grey;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.SpanBtnDiv{
+    display: inline-block;
+    width: 5rem;
+    font-size: 0.8rem;
+}
+.SpanBtn{
+    cursor: pointer;
+}
+.SpanBtn:hover{
+    text-decoration: underline;
+}
+.EditText{
+    width: 20rem;
+}

@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+    background: #5c7cfa;
+    display: flex;
+    width: 100%;
+}
+ 
+.item {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+ 
+.item:hover {
+    background: #748ffc;
+}
+
+.item:active, .item.active {
+    background: white;
+    color: #5c7cfa;
+}.Todo{
+    width: 30rem;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid grey;
+}
+.Text{
+    background-color: #1C66A6;
+    color: white;
+    font-size: 2.5rem;
+}
+.InputText{
+    margin-right: 3px;
+    width: 88%;
+    height: 1.5rem;
+}
+button{
+    vertical-align: middle;
+    width: 10%;
+    height: 1.7rem;
+    background-color: #5EADBF;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.InfoWarp{
+    margin-top: 1rem;
+}
+.Info{
+    height: 2rem;
+    border: 1px solid grey;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.TodoIdx{
+    display: inline-block;
+    width: 1rem;
+    text-align: left;
+}
+.TodoText{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+}
+.TodoTextChecked{
+    text-decoration: underline;
+}
+.BtnDiv{
+    display: inline-block;
+    width: 5rem;
+    font-size: 0.8rem;
+}
+.Btn{
+    cursor: pointer;
+}
+.Btn:hover{
+    text-decoration: underline;
+}
+.EditText{
+    width: 20rem;
+}.Layout{ margin-top: 2rem}
+.StopWatch {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    color: white;
+    background-color: pink;
+
+    font-size: 3rem;
+
+    border-radius: 100%;
+    user-select: none;
+    transition: background-color 0.75s;
+}
+.ButtonWarp{
+    margin: 0 auto;
+    text-align: center;
+}
+.BtnBox{
+    display: inline-block;
+}
+
+.Btn {
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    margin: 5px;
+    vertical-align: middle;
+
+    color: white;
+    background-color: pink;
+
+    font-size: 1rem;
+    line-height: 2rem;
+    
+    border-radius: 15%;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.75s;
+}
+
+.lapList{
+    margin: 0 auto;
+    text-align: center;
+}
+.lapInfo{
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+.lapNum{
+    padding-left: 1rem;
+    float: left;
+}
+.lapTime{
+    padding-right: 1rem;
+    float: right;
+}.Layout{ margin-top: 2rem}
+.Timer {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    color: white;
+    background-color: pink;
+
+    font-size: 3rem;
+
+    border-radius: 100%;
+    user-select: none;
+    transition: background-color 0.75s;
+}
+.ButtonWarp{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.TimeAddBtn {
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    margin: 5px;
+    vertical-align: middle;
+
+    color: white;
+    background-color: pink;
+
+    font-size: 1rem;
+    line-height: 2rem;
+    border-radius: 15%;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.75s;
+}
